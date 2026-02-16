@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-common: "Inter", sans-serif;
+  --font-accent: "PressStart2P", monospace;
+  --font-weight-text: 410;
+  --font-weight-title: 715;
+  --background-gradient:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --bg-color: white;
+  --common-fs: 18px;
+  --common-width: clamp(375px, calc(700px + (100vw - 1440px) * 0.365), 700px);
+  --common-height: clamp(327px, calc(327px + (100vh - 667px) * 0.131), 368px);
+  --cont-button-width: clamp(341px, calc(341px + (353 - 341) * ((100vw - 375px) / (1440 - 375))), 353px);
+  --accent-color: #000;
+  --animation-fill-color: rgb(255,0,0);
+
+}
+
+/* Фритрек и нулевой спринт: Подготовка к работе */
+
