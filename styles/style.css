@@ -92,7 +92,7 @@ button {
   position: relative;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
-  transition: scale 10s ease-in-out;
+  transition: scale 0.5s ease-in-out;
 }
 
 button:hover {
@@ -154,7 +154,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   width: fit-content;
-  position: relative;
+
   z-index: 1;
 }
 
@@ -210,6 +210,10 @@ button:hover {
 .opened-dialog {
   line-height: 150%;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 @media (width <= 375px) {
@@ -254,13 +258,6 @@ button:hover {
 
 .hands {
   filter: opacity(0.4) saturate(1.8);
-}
-
-.opened-dialog {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 20px;
 }
 
 .floppy_continue {
