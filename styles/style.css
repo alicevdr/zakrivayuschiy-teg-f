@@ -17,10 +17,6 @@ header {
 header,
 .card {
   width: var(--common-width);
-}
-
-header,
-.card {
   border: 2px solid black;
 }
 
@@ -100,7 +96,7 @@ button {
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .button::before {
@@ -161,7 +157,7 @@ button:hover {
   position: relative;
   z-index: 1;
 }
-  
+
 .card_image_zone {
   display: flex;
   align-items: flex-start;
@@ -177,7 +173,6 @@ button:hover {
   font-family: var(--font-accent);
   -webkit-text-stroke: 1px var(--bg-color);
 }
-
 
 @supports (-webkit-text-stroke: 4px var(--bg-color)) {
   label {
