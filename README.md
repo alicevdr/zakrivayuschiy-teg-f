@@ -1,1 +1,1 @@
-https://alicevdr.github.io/zakrivayuschiy-teg-f/
+https://alicevdr.github.io/zakrivayuschiy-teg-f/ 
