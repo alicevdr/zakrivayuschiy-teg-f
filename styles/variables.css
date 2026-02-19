@@ -15,6 +15,5 @@
   --cont-button-width: clamp(341px, calc(341px + (353 - 341) * ((100vw - 375px) / (1440 - 375))), 353px);
   --accent-color: #000;
   --animation-fill-color: rgb(255,0,0);
-
 }
 
