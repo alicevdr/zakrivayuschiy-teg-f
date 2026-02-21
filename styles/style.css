@@ -64,7 +64,6 @@ header {
   }
 
   .button_save {
-
     padding: 19px 20px;
   }
 }
@@ -152,9 +151,8 @@ button {
 }
 
 .button-cov {
-border: 2px solid black;
+  border: 2px solid black;
 }
-
 
 .button-cov:hover {
   transition: scale 0.5s ease-in-out;
@@ -223,8 +221,8 @@ border: 2px solid black;
   outline: 0;
 }
 
-.button-sh:focus { 
-  box-shadow: 2px 2px 0 black; 
+.button-sh:focus {
+  box-shadow: 2px 2px 0 black;
 }
 
 .card__icon-button {
@@ -357,8 +355,6 @@ border: 2px solid black;
 .main-body {
   transition: fill 0.3s linear;
 }
-
-
 
 .like-icon:hover .main-body {
   fill: var(--accent-color);
